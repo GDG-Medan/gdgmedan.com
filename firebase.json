@@ -8,6 +8,8 @@
     ],
     "frameworksBackend": {
       "region": "us-central1"
-    }
+    },
+    "appAssociation": "AUTO",
+    "rewrites": [ { "source": "/**", "dynamicLinks": true } ]
   }
 }
